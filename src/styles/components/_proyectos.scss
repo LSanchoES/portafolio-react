@@ -1,0 +1,82 @@
+.proyect__container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: $primary-low;
+    background-image:  url('../../assets/proyect-wave-bot.svg');
+    background-repeat:  no-repeat;
+    background-size:  100%;
+    background-position:  bottom;
+    flex-direction: column;
+}
+.proyect__title{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    font-size: 4rem;
+    text-shadow: 0px 0px 2px $primary;
+    margin-left: 2rem;
+    height: 20vh;
+}
+
+.proyect__row-carousel{
+    display: flex;
+    align-items: center;
+}
+.proyect__slide-container{
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 2px 0px 5px $secondary-low;   
+    cursor: pointer;
+    transition: all 400ms;
+    overflow: hidden;
+    &:hover{
+        transform: translate(2px , -2px);
+    }
+
+
+   img{
+       height: 70vh ;
+       object-fit: contain;
+       transition: all 400ms;
+    &:hover{    
+        opacity: 0.7;
+        transform: scale(1.2);
+    }
+   }
+
+}
+.proyect__slide-desc{
+    font-weight: bold;
+    background-color: $primary;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    padding-left: 10%;
+    opacity: 0.8;
+    border-top-left-radius: 20px;
+    span{
+        color: $secondary-low;
+        display: block;
+        padding: 1rem;
+        font-size: 2ch;
+    }
+}
+
+.BrainhubCarousel__arrows{
+    position: inherit;
+    background-color: $secondary !important;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 0px 0px 5px $primary;
+    span{
+        border-color: $primary;
+        &:hover{
+            background-color: $secondary-low !important;
+        }
+    }
+    &:hover{
+        background-color: $primary !important;
+    }
+}
