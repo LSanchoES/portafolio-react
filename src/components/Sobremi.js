@@ -14,35 +14,42 @@ export const Sobremi = () => {
                     />
                     <div>
                        <a href="https://www.linkedin.com/in/lsanchoaragon/"  target="_blank" rel="noreferrer">  <i className="sobre__ico fab fa-linkedin"></i>  </a>
-                       <a href="https://github.com/LSanchoES"  target="_blank" rel="noreferrer">                <i class="sobre__ico fab fa-github-square"></i> </a>
+                       <a href="https://github.com/LSanchoES"  target="_blank" rel="noreferrer">                <i className="sobre__ico fab fa-github-square"></i> </a>
                        <a href="https://www.instagram.com/vristok/"  target="_blank" rel="noreferrer">          <i className="sobre__ico fab fa-instagram-square"></i> </a>
                     </div>
                 </Col> 
                 <Col xs={12} md={7}>
                     <div className="sobre__texto">
     
-                    <p><em>Era sé una vez un hombre pegado a un ordenador...</em> desde muy pequeño 
+                    <p>
+                        <em>Era sé una vez un hombre pegado a un ordenador...</em> desde muy pequeño 
                         me ha encantado el mundo de la informática; cuando no existía Windows
                         yo ya jugaba a Prince of Persia ejecutando desde MS-DOS los míticos floppy disk.
+                    </p>
+                        
                         <hr/>
+                    <p>
                         Mi trayectoria ha sido muy diversa ya que me gusta estar en constante aprendizaje,
                         en mi adolescencia descubrí el mundo de la música y comencé a trastear con diferentes 
                         instrumentos analógicos y virtuales, adentrandome así en el mundo del MIDI.
+                    </p>
                         <hr/>
-
+                    <p>
                         Entré a la <b>Universidad Complutense de Madrid</b> para hacer la carrera de magisterio musical 
                         y así tener una base sólidad tanto musical como pedagógica. Tras terminar la carrera mientras doy
                         clases particulares de música, estudio por mi cuenta y en varios cursos, las diferentes tecnologías 
                         referentes a la informática y a la producción de audio.
+                    </p>
                         <hr/>
-
+                    
+                    <p>
                         Después de haber trabajado como <i>soporte técnico y webmaster</i> me decidí por aprender más a fondo
                         sobre programación y actualmente sigo estudiando y aprendiendo en este vertiginoso mundo de la tecnología digital.
-                        <hr/>
-                        <i><b>Estas son las tecnologías que controlo  </b></i> 🙂
-
-
                     </p>
+                        <hr/>
+                    <h3>
+                        <i><b>Estas son las tecnologías que controlo  </b></i> 🙂
+                    </h3>
                     </div>
                 </Col>
             </Row>

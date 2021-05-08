@@ -14,12 +14,12 @@ export const UiNavbar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link className="navbar__element" ><Link smooth to="#home">Home</Link></Nav.Link>
-                    <Nav.Link className="navbar__element" ><Link smooth to="#sobremi">Sobre mí</Link></Nav.Link>
-                    <Nav.Link className="navbar__element" ><Link smooth to="#tecno">Tecnologías</Link></Nav.Link>
-                   <Nav.Link className="navbar__element" ><Link smooth to="#proyect">Proyectos</Link></Nav.Link>
-                    <Nav.Link className="navbar__element" ><Link smooth to="#audiovisual">Audiovisual</Link></Nav.Link>
-                   <Nav.Link className="navbar__element" ><Link smooth to="#contacto">Contacto</Link></Nav.Link>
+                    <Link smooth to="#home"   className="navbar__element" >Home</Link>
+                    <Link smooth to="#sobremi"className="navbar__element" >Sobre mí</Link>
+                    <Link smooth to="#tecno"  className="navbar__element" >Tecnologías</Link>
+                   <Link smooth to="#proyect" className="navbar__element" >Proyectos</Link>
+                    <Link smooth to="#audiovisual" className="navbar__element" >Audiovisual</Link>
+                   <Link smooth to="#contacto" className="navbar__element" >Contacto</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

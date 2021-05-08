@@ -22,13 +22,15 @@
 .proyect__row-carousel{
     display: flex;
     align-items: center;
+ 
 }
 .proyect__slide-container{
     position: relative;
-    border-radius: 50px;
-    box-shadow: 2px 0px 5px $secondary-low;   
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px  black;   
     cursor: pointer;
     transition: all 400ms;
+    
     overflow: hidden;
     &:hover{
         transform: translate(2px , -2px);
@@ -36,9 +38,10 @@
 
 
    img{
-       height: 70vh ;
-       object-fit: contain;
+       height: 80vh ;
+
        transition: all 400ms;
+       
     &:hover{    
         opacity: 0.7;
         transform: scale(1.2);
@@ -65,18 +68,22 @@
 }
 
 .BrainhubCarousel__arrows{
-    position: inherit;
-    background-color: $secondary !important;
-    border-radius: 50%;
-    margin: 20px;
-    box-shadow: 0px 0px 5px $primary;
+
+    background-color: $primary !important;
+
+    height: 81vh;
+    box-shadow: 0px 0px 10px black;
+    transition: all 500ms;
+    &:hover{
+        opacity: 0.8 !important;
+    }
     span{
         border-color: $primary;
+
+        
         &:hover{
             background-color: $secondary-low !important;
         }
-    }
-    &:hover{
-        background-color: $primary !important;
+
     }
 }

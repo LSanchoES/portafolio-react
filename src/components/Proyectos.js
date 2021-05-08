@@ -8,10 +8,9 @@ import slides from "./ProyectosAdd";
 export const Proyectos = () => {
 
   
-
 	return (
 		<div className="proyect__container" id="proyect">
-			<Row className="">
+			<Row>
 				<i>
 					<h2 className="proyect__title">"Estos son mis proyectos"</h2>
 				</i>
@@ -54,7 +53,7 @@ export const Proyectos = () => {
           }}
         
           animationSpeed={400}
-          itemWidth={430}
+
           slides={slides}
         /> 
         

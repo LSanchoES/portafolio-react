@@ -28,7 +28,7 @@ export const Head = () => {
 
     useEffect(() => {
             changeIcon() 
-    }, [ico.props.className]);
+    }, );
 
     return (
         <>
