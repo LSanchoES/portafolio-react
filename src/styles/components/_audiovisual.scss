@@ -1,0 +1,48 @@
+.audiovisual__container{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    height: 100vh;
+    background-color: $primary;
+    background-image: url('../../assets/audio-wave-top.svg') , url('../../assets/audio-wave-bot.svg');
+    background-repeat: no-repeat , no-repeat;
+    background-size: 100% , 100%;
+    background-position: top , bottom;
+    color: $secondary-low;
+}
+.audiovisual__col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+    padding: 1rem;
+    
+    h2{
+        font-style: italic;
+        font-size: 5ch;
+        text-decoration: underline;
+        text-underline-position:above;
+    }
+    p{
+        text-align: center;
+        font-size: 2ch;
+        padding: 1rem;
+    }
+
+}
+
+.audiovisual__ico{
+    width: 4.5rem;
+    font-size: 3rem;
+    color: $secondary; 
+    margin: 2rem;
+    cursor: pointer;
+    transition: all 300ms;
+    filter: blur(0.2px);
+    filter: drop-shadow(2px 2px 10px black);
+
+    &:hover{
+        transform: translate(2px , -1px);
+        opacity: 0.5;
+    }
+}

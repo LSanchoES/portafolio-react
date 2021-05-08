@@ -1,0 +1,57 @@
+.contacto__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: $primary-low;
+    background-image: url('../../assets/contacto-wave-top.svg') , url('../../assets/contacto-wave-bot.svg');
+    background-repeat: no-repeat , no-repeat;
+    background-size: 100% , 100%;
+    background-position: top , bottom;
+    flex-direction: column;
+}
+.contacto__row{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contacto__title{
+   font-size: 3rem;
+   color: $secondary-low;
+   font-style: italic;
+}
+.contacto__form{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+   overflow: hidden;
+    label{
+        color: $secondary-low;
+        font-size: 1.3rem;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    textarea{
+        width: 50vw;
+        height: 40vh;
+    }
+}
+
+.contacto__btn{
+    width: 100%;
+    background-color: $secondary;
+    color: $primary;
+    border-radius: 12px;
+    outline-color: $primary-low;
+    padding: 0rem;
+    font-size: 2rem;
+    filter: drop-shadow( 0px 0px 12px $primary);
+    transition: all 400ms;
+
+    &:hover{
+        transform: translate(2px , -2px);
+    }
+}

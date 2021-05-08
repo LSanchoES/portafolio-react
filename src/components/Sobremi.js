@@ -3,7 +3,8 @@ import { Row , Col} from 'react-bootstrap'
 
 export const Sobremi = () => {
     return (
-        <div className="sobre__container">
+        
+        <div className="sobre__container" id="sobremi">
             <Row>
                 <Col xs={12} md={5} className="sobre__image-col">
                     <img 
@@ -12,9 +13,9 @@ export const Sobremi = () => {
                     src="https://res.cloudinary.com/lsancho-es/image/upload/v1620311301/nddzhijozpbchk6zuici.png" 
                     />
                     <div>
-                       <a href="https://www.linkedin.com/in/lsanchoaragon/"  target="_blank">  <i className="sobre__ico fab fa-linkedin"></i>  </a>
-                       <a href="https://github.com/LSanchoES"  target="_blank">                <i class="sobre__ico fab fa-github-square"></i> </a>
-                       <a href="https://www.instagram.com/vristok/"  target="_blank">          <i className="sobre__ico fab fa-instagram-square"></i> </a>
+                       <a href="https://www.linkedin.com/in/lsanchoaragon/"  target="_blank" rel="noreferrer">  <i className="sobre__ico fab fa-linkedin"></i>  </a>
+                       <a href="https://github.com/LSanchoES"  target="_blank" rel="noreferrer">                <i class="sobre__ico fab fa-github-square"></i> </a>
+                       <a href="https://www.instagram.com/vristok/"  target="_blank" rel="noreferrer">          <i className="sobre__ico fab fa-instagram-square"></i> </a>
                     </div>
                 </Col> 
                 <Col xs={12} md={7}>

@@ -1,10 +1,11 @@
 import React from 'react'
 import { Head } from './components/Head'
 import { UiNavbar } from './components/UiNavbar'
-import {Example} from './components/Example'
 import { Tecnologias } from './components/Tecnologias'
 import { Sobremi } from './components/Sobremi'
 import { Proyectos } from './components/Proyectos'
+import { Audiovisual } from './components/Audiovisual'
+import { Contacto } from './components/Contacto'
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
      <Sobremi />
      <Tecnologias />
      <Proyectos />
+     <Audiovisual />
+     <Contacto />
     </>
   )
 }

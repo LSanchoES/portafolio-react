@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Row } from "react-bootstrap";
 import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
@@ -10,7 +10,7 @@ export const Proyectos = () => {
   
 
 	return (
-		<div className="proyect__container">
+		<div className="proyect__container" id="proyect">
 			<Row className="">
 				<i>
 					<h2 className="proyect__title">"Estos son mis proyectos"</h2>
@@ -21,13 +21,14 @@ export const Proyectos = () => {
           plugins={[
             'infinite',
             'arrows',
-            'centered',
+            'centered',    
             {
               resolve: slidesToShowPlugin,
               options: {
                numberOfSlides: 2
               }
             },
+
           ]}
           breakpoints={{
             640: {

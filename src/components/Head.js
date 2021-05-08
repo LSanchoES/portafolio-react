@@ -34,6 +34,7 @@ export const Head = () => {
         <>
         
             <Row className="head__container p-5 animate__animated animate__fadeIn"
+                id="home"
             >
                 <Col xs={12} md={9}>
                     <h1 className="head__title ">
