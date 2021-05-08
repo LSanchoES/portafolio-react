@@ -19,7 +19,7 @@ export const Contacto = () => {
 							<Form.Control type="email" placeholder="name@example.com" name="email" />
 						</Form.Group>
 						<Form.Group controlId="exampleForm.ControlTextarea1">
-							<Form.Label>Escribe aqui tu mensaje</Form.Label>
+							<Form.Label>Escribe aquí tu mensaje</Form.Label>
 							<Form.Control as="textarea" rows={3} name="text" />
 						</Form.Group>
                         <button type="submit" className="contacto__btn">Enviar</button>
