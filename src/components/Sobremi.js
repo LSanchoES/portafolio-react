@@ -5,20 +5,21 @@ export const Sobremi = () => {
     return (
         
         <div className="sobre__container" id="sobremi">
-            <Row>
-                <Col xs={12} md={5} className="sobre__image-col">
+            <Row className="sobre__row">
+                <Col xs={12} lg={5} className="sobre__image-col">
                     <img 
                     alt="Lorenzo Sancho"
                     className="sobre__imagen"
                     src="https://res.cloudinary.com/lsancho-es/image/upload/v1620311301/nddzhijozpbchk6zuici.png" 
                     />
-                    <div>
+                
+                    <Row className="sobre__ico-col">
                        <a href="https://www.linkedin.com/in/lsanchoaragon/"  target="_blank" rel="noreferrer">  <i className="sobre__ico fab fa-linkedin"></i>  </a>
                        <a href="https://github.com/LSanchoES"  target="_blank" rel="noreferrer">                <i className="sobre__ico fab fa-github-square"></i> </a>
                        <a href="https://www.instagram.com/vristok/"  target="_blank" rel="noreferrer">          <i className="sobre__ico fab fa-instagram-square"></i> </a>
-                    </div>
+                    </Row>
                 </Col> 
-                <Col xs={12} md={7}>
+                <Col xs={12} lg={7}>
                     <div className="sobre__texto">
     
                     <p>
@@ -48,7 +49,7 @@ export const Sobremi = () => {
                     </p>
                         <hr/>
                     <h3>
-                        <i><b>Estas son las tecnologías que controlo  </b></i> 🙂
+                        <i><b>Sigue bajando para descubrir las tecnologías que controlo  </b></i> 🙂
                     </h3>
                     </div>
                 </Col>

@@ -91,7 +91,7 @@ const slidesInfo = [
     {
         src: "https://res.cloudinary.com/lsancho-es/image/upload/v1620491559/mxskvxke1jb7uulxxfdp.png",
         alt: "Beer App",
-        desc: "Tomate una cervecita aleatora y de paso mira como se fabrica",
+        desc: "Tomate una cervecita aleatoria y de paso mira como se fabrica",
         url: "https://lsanchoes.github.io/beer-app/",
     },
 

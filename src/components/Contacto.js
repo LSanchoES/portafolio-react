@@ -20,7 +20,7 @@ export const Contacto = () => {
 						</Form.Group>
 						<Form.Group controlId="exampleForm.ControlTextarea1">
 							<Form.Label>Escribe aquí tu mensaje</Form.Label>
-							<Form.Control as="textarea" rows={3} name="text" />
+							<Form.Control as="textarea" rows={3} name="text" placeholder=" El éxito depende del esfuerzo (Sófocles) "/>
 						</Form.Group>
                         <button type="submit" className="contacto__btn">Enviar</button>
 					</Form>

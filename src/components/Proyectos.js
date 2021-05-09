@@ -12,7 +12,7 @@ export const Proyectos = () => {
 		<div className="proyect__container" id="proyect">
 			<Row>
 				<i>
-					<h2 className="proyect__title">"Estos son mis proyectos"</h2>
+					<h2 className="proyect__title">"Deslízate por mis proyectos"</h2>
 				</i>
 			</Row>
 			<Row className="proyect__row-carousel">
@@ -24,7 +24,7 @@ export const Proyectos = () => {
             {
               resolve: slidesToShowPlugin,
               options: {
-               numberOfSlides: 2
+               numberOfSlides: 3
               }
             },
 
@@ -32,6 +32,7 @@ export const Proyectos = () => {
           breakpoints={{
             640: {
               plugins: [
+                'infinite',
                {
                  resolve: slidesToShowPlugin,
                  options: {
@@ -42,6 +43,7 @@ export const Proyectos = () => {
             },
             900: {
               plugins: [
+                'infinite',
                {
                  resolve: slidesToShowPlugin,
                  options: {

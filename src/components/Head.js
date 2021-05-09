@@ -33,15 +33,15 @@ export const Head = () => {
     return (
         <>
         
-            <Row className="head__container p-5 animate__animated animate__fadeIn"
+            <Row className="head__container p-1 p-lg-5 animate__animated animate__fadeIn"
                 id="home"
             >
-                <Col xs={12} md={9}>
+                <Col xs={12} lg={9}>
                     <h1 className="head__title ">
                         ¡Hola, bienvenid@! Soy Lorenzo Sancho, desarrollador web, maestro y productor musical.
                     </h1>
                 </Col>
-                <Col xs={12} md={3}>
+                <Col xs={12} lg={3} >
                 
                 <span className="animate__animated animate__fadeIn">{ico}</span>   
                 

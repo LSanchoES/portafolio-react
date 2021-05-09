@@ -12,6 +12,7 @@
     color: $secondary-low;
     font-size: 1rem;
     text-align: center;
+    overflow: hidden;
 }
 .tecno__ico{
 
@@ -20,11 +21,13 @@
     text-shadow: 0px 0px 10px black;  
     margin: 1rem;
     filter: drop-shadow(2px 2px 10px $primary);
+    overflow: hidden;
 
 }
 .tecno__row{
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .tecno__col{
     display: flex;
@@ -34,4 +37,31 @@
     margin: 1rem;
     text-shadow: 0px 0px 5px black;
     font-size: 1rem;
+    overflow: hidden;
+}
+@media (max-width:1000px) {
+    .tecno__container{
+        height: 210vh;
+        overflow: hidden;
+    }
+
+}
+@media (max-width:500px) {
+    .tecno__container{
+        height: 230vh;  
+    }
+    .tecno__row{
+        margin-top: 0rem;
+    }
+    .tecno__ico{
+        font-size: 6rem;
+    }
+}
+@media (max-width:360px) {
+    .tecno__container{
+        height: 300vh;  
+    }
+    .tecno__ico{
+        font-size: 5rem;
+    }
 }
