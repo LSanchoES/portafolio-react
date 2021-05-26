@@ -67,7 +67,7 @@ const slidesInfo = [
         src: "https://res.cloudinary.com/lsancho-es/image/upload/v1620491555/tx0dlllazh0xsi7pes12.png",
         alt: "Heroes App",
         desc: "Busca cualquier heroe de Marvel y DC",
-        url: "https://lsanchoes.github.io/marvel"
+        url: "https://lsanchoes.github.io/Heroes-app"
     },
     {
         src: "https://res.cloudinary.com/lsancho-es/image/upload/v1620491556/ckw4iyw3vw8ocr60tx9g.png",

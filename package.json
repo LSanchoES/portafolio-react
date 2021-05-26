@@ -1,5 +1,6 @@
 {
-  "name": "my-portfolio",
+  "name": "lorenzo-sancho-portafolio",
+  "homepage": "http://lsancho.es",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
